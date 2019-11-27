@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+  <style>
+    #img1 {display:block;}
+#img2 {display:none}
+
+@media all and (max-width: 499px) {
+    #img1 {display: none;}
+    #img2 {display: block;}
+}
+  </style>
+</head>
+
+<body>
+    <img id="img1" src="images/arts/IMG_1447.png" alt="">
+    <img id="img2" src="images/arts/IMG_1447m.png" alt="">
+</body>
+
+</html> 
